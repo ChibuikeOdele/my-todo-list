@@ -1,0 +1,75 @@
+.Todolist {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: top 100px;
+}
+h1 {
+  font-size: 4rem;
+}
+button {
+  font: size 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+.add-btn {
+  padding: 20px 20px;
+  margin-left: 5px;
+  background-color: hsl(160, 64%, 81%);
+}
+.add-btn:hover {
+  background-color: hsl(160, 50%, 50%);
+}
+.delete-btn {
+  background-color: rgb(238, 138, 138);
+}
+.delete-btn:hover {
+  background-color: rgb(206, 71, 71);
+}
+.move-up {
+  background-color: hsl(240, 55%, 64%);
+}
+.move-up:hover {
+  background-color: hsl(240, 41%, 43%);
+}
+.move-down {
+  background-color: hsl(240, 55%, 64%);
+}
+.move-down:hover {
+  background-color: hsl(240, 41%, 43%);
+}
+input[type="text"] {
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid rgb(207, 207, 161);
+  border-radius: 5px;
+  color: hsl(0, 8%, 18%);
+}
+ol {
+  padding: 0;
+}
+li {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: aliceblue;
+  margin-bottom: 10px;
+  border: 3px solid hsl(0, 19%, 79%);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.text {
+  flex: 1;
+}
+.delete-btn,
+.move-down,
+.move-up {
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
